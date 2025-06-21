@@ -7,5 +7,6 @@ jobs:
     steps:
       - name: print
         run: python -c "print('this first workflow')";
-             python -v; lscpu; lsb_release;
-             echo "this is first test" >>log
+             python --version; lscpu; lsb_release;
+             echo "this is first test" >>log;
+             ls
